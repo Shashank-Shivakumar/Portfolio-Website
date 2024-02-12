@@ -11,7 +11,7 @@
   },
   {
     "name": "Forecasting Bank Customer Attrition",
-    "desc": " Forecasting Bank Customer Attrition employing advanced ML models like Random Forest, Gradient Boosting, and XGBoost, with strategic feature engineering and hyperparameter tuning for optimized accuracy.",
+    "desc": "Optimized accuracy with advanced ML models (Random Forest, Gradient Boosting, XGBoost) through feature engineering and hyperparameter tuning.",
     "image": "bank_churn.png",
     "category": "lamp",
     "links": {
@@ -21,7 +21,7 @@
   },
   {
     "name": "Stock Prediction",
-    "desc": "Stock Price Prediction Dashboard using LSTM for 85% accurate forecasts, featuring an interactive Plotly Dash interface for in-depth analysis of major stocks like Apple, Microsoft, and Facebook.",
+    "desc": "Using LSTM for 85% accurate forecasts, featuring an interactive Plotly Dash interface for in-depth analysis of major stocks like Apple, Microsoft, and Facebook.",
     "image": "stock_prediction.jpg",
     "category": "mern",
     "links": {
@@ -31,7 +31,7 @@
   },
   {
     "name": "Cricket Data Analysis",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "desc": "Leveraged data scraping and Pandas for insights, with a Power BI dashboard to identify top players and strategize team dynamics.",
     "image": "cricket.png",
     "category": "mern",
     "links": {
@@ -41,7 +41,7 @@
   },
   {
     "name": "Analysis of Top YouTube Channels",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
+    "desc": "Utilized SQL for data preparation and Power BI for dynamic dashboards, revealing trends, audience insights, and content strategy correlations among top channels.",
     "image": "youtube.png",
     "category": "mern",
     "links": {
@@ -51,7 +51,7 @@
   },
   {
     "name": "Climate Change Forecast",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "Climate Change Prediction in Rio de Janeiro using Seasonal ARIMA Models for time series forecasting, analyzing historical patterns to predict future climate variations.",
     "image": "climate_change.png",
     "category": "basicweb",
     "links": {

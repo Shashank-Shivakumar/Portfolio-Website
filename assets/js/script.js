@@ -63,7 +63,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Return to Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
@@ -130,7 +130,7 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-          <div class="btns" style="margin-left:145px">
+          <div class="btns" style="margin-left:140px">
             <a href="${project.links.code}" class="btn" target="_blank">View</i></a>
           </div>
         </div>
