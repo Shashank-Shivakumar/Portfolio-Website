@@ -70,8 +70,21 @@ document.addEventListener('visibilitychange',
 
 
 // <!-- typed js effect starts -->
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+}
+
+const stringsArray = [ "Real-time Data Processing.", "Data Modeling.","Data Evaluating.","Model Deployment.", "Data Visualization.","Statistical Analysis.","Data Visualization.","Predictive Modeling.","Quantitative Research.","Data Engineering.","Decision Analytics.", "Text Analytics and NLP.", "Machine Learning Implementation.","Computational Modeling.", "Time Series Forecasting.","Exploratory Data Analysis.","Feature Engineering and Selection.","Visualization and Dashboard Creation.","Healthcare Data Analytics.","Supply Chain Analytics.","Financial Quantitative Analysis.","Social Media Data Mining."];
+
+// Shuffle the strings array
+shuffleArray(stringsArray);
+
+// Initialize Typed with the shuffled array
 var typed = new Typed(".typing-text", {
-    strings: [ "data processing", "data modelling","data evaluating","model deployment", "data visualizing"],
+    strings: stringsArray,
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,

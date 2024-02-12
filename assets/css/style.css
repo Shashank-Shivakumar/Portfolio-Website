@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.2s linear;
 }
 html {
@@ -466,7 +466,7 @@ header .navbar ul li a:hover {
   }
   .skills .container .row {
     display: grid;
-    grid-template-columns: repeat(2, 2fr) !important;    
+    grid-template-columns: repeat(2, 2fr) !important;
     flex-wrap: wrap;
     gap: 1.8rem;
   }
@@ -545,6 +545,12 @@ header .navbar ul li a:hover {
     margin-top: 5px;
     width: 100%;
   }
+  .skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
 }
 /* skills media queries ends*/
 /* skills section ends */
@@ -604,7 +610,7 @@ header .navbar ul li a:hover {
   flex: 1 1 70rem;
 }
 .education .box-container .box .content h3 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #012970;
   padding: 0.5rem 0;
   font-weight: 600;
@@ -617,7 +623,7 @@ header .navbar ul li a:hover {
   text-align: left;
 }
 .education h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
