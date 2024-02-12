@@ -336,6 +336,7 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
+    width: 55%;
     margin-top: -12rem;
   }
   .home .content p {
